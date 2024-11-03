@@ -1,0 +1,120 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center container on page */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #f0f0f5;
+    margin: 0;
+}
+
+/* Container for form and resume */
+.container {
+    
+    width: 50%;
+    max-width: 800px;
+    background-color: rgb(166, 215, 226);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form styling */
+.form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    text-align: left;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Form button styling */
+.form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+
+/* Resume display styling */
+.resume-display {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Shareable link styling */
+.shareable-link-container {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.shareable-link-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.shareable-link-container a:hover {
+    text-decoration: underline;
+}
+
+/* Download button styling */
+.download-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #008CBA;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #007BB5;
+}
+/* #resume-form{
+    display: flex;
+    justify-content: center;
+    background-color: #008CBA;
+} */
